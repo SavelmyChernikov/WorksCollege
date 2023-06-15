@@ -1,4 +1,4 @@
-import GuessNumber from "./GuessNumber.js"
+import GuessNumber from "./GuessNumber.js";
 
-const app = new GuessNumber(document.querySelector("#app"));
+const app = new GuessNumber( document.querySelector("#app") );
 app.init();
